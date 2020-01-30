@@ -36,4 +36,20 @@
         android:text="Send Data"
         android:onClick="send_data"
         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Train no:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:id="@+id/trainNo"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab Evaluation 1"
+        android:textSize="20sp"
+        android:id="@+id/labEval"
+        android:onClick="labEval"
+        />
 </LinearLayout>

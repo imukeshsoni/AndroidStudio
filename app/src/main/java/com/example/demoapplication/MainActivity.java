@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 import android.content.Intent;
 
@@ -64,5 +65,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(it);
 
 
+    }
+
+    public void labEval(View view) {
+        Intent Lab = new Intent(this,LabEval.class);
+        EditText trainNo = findViewById(R.id.trainNo);
+        int tn = Integer.parseInt(trainNo.getText().toString());
+        Lab.putExtra("trainNo",tn);
+        startActivity(Lab);
     }
 }

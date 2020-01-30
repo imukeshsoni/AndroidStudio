@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Recieve_data"></activity>
+        <activity android:name=".LabEval"></activity>
+        <activity android:name=".Recieve_data" />
         <activity android:name=".Assignment" />
         <activity android:name=".CalculatorActivity" />
         <activity android:name=".MainActivity">
