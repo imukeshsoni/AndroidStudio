@@ -52,4 +52,12 @@
         android:id="@+id/labEval"
         android:onClick="labEval"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web View Demo"
+        android:textSize="20sp"
+        android:id="@+id/webview"
+        android:onClick="WebView"
+        />
 </LinearLayout>

@@ -74,4 +74,9 @@ public class MainActivity extends AppCompatActivity {
         Lab.putExtra("trainNo",tn);
         startActivity(Lab);
     }
+
+    public void WebView(View view) {
+    Intent WebView = new Intent(this,WebViewActivity.class);
+    startActivity(WebView);
+    }
 }
