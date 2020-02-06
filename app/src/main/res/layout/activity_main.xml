@@ -60,4 +60,12 @@
         android:id="@+id/webview"
         android:onClick="WebView"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Box Demo"
+        android:id="@+id/checkbox"
+        android:textSize="20sp"
+        android:onClick="order"
+        />
 </LinearLayout>
