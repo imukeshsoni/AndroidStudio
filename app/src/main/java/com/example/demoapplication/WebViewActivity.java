@@ -17,6 +17,7 @@ WebView wv;
     }
 
     public void webView(View view) {
-        wv.loadUrl("https://www.google.com");
+       // wv.loadUrl("https://www.google.com"); // Directly loading the application in the application. Commenting this to use one other method
+        wv.loadUrl("file:///android_asset/web_page.html"); // Here '///' is used to access the root directory in an application
     }
 }

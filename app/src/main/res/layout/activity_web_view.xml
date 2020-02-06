@@ -19,7 +19,6 @@
         android:layout_height="match_parent"
         android:layout_marginTop="20dp"
         android:id="@+id/wv"
-        android:layout_gravity="center_horizontal"
 
         />
 
