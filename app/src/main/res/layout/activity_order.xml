@@ -12,7 +12,7 @@
         android:text="Pizza"
         android:textSize="25sp"
         android:id="@+id/cb1"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:layout_marginLeft="150dp"
         />
     <CheckBox
@@ -21,7 +21,7 @@
         android:text="Burger"
         android:textSize="25sp"
         android:id="@+id/cb2"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:layout_marginLeft="150dp"
         />
     <CheckBox
@@ -30,7 +30,7 @@
         android:text="Sandwich"
         android:textSize="25sp"
         android:id="@+id/cb3"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:layout_marginLeft="150dp"
         />
     <Button
@@ -40,7 +40,54 @@
         android:textSize="25sp"
         android:layout_gravity="center_vertical"
         android:id="@+id/orderButton"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="60dp"
         android:onClick="order"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please give us your valuable feedback"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Good"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Average"
+                android:textSize="20sp" />
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ratings"
+        android:text="Give Ratings"
+        android:textSize="20sp"
         />
 </LinearLayout>
