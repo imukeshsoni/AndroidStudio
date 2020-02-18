@@ -92,4 +92,9 @@ public class MainActivity extends AppCompatActivity {
         Intent sharepref = new Intent(this,SharePref.class);
         startActivity(sharepref);
     }
+
+    public void assignment2(View view) {
+        Intent it = new Intent(this,Tourist_package.class);
+        startActivity(it);
+    }
 }
