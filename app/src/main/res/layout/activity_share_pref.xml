@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SharePref">
+
+    <EditText
+        android:id="@+id/username"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:password="true"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:id="@+id/cb"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save the Data"
+        android:textSize="20sp"
+        android:id="@+id/b1"
+        android:onClick="savedata"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read the Data"
+        android:textSize="20sp"
+        android:id="@+id/b2"
+        android:onClick="readdata"
+        />
+
+</LinearLayout>

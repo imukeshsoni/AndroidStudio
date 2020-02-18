@@ -87,4 +87,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(Order);
 
     }
+
+    public void sharepref(View view) {
+        Intent sharepref = new Intent(this,SharePref.class);
+        startActivity(sharepref);
+    }
 }
