@@ -97,4 +97,9 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(this,Tourist_package.class);
         startActivity(it);
     }
+
+    public void labEval2(View view) {
+        Intent it = new Intent(this,PizzaOrdering.class);
+        startActivity(it);
+    }
 }

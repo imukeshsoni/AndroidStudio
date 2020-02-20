@@ -83,4 +83,11 @@
         android:textSize="20sp"
         android:onClick="assignment2"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab Evaluation 2"
+        android:textSize="20sp"
+        android:onClick="labEval2"
+        />
 </LinearLayout>

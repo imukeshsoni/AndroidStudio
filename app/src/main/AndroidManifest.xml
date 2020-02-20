@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Tourist_package"></activity>
+        <activity android:name=".PizzaOrdering"></activity>
+        <activity android:name=".Tourist_package" />
         <activity android:name=".SharePref" />
         <activity android:name=".Order" />
         <activity android:name=".WebViewActivity" />
