@@ -102,4 +102,14 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(this,PizzaOrdering.class);
         startActivity(it);
     }
+
+    public void mediaplayer(View view) {
+        Intent it = new Intent(this, Mediaplayer.class);
+        startActivity(it);
+    }
+
+    public void listviewdemo2(View view) {
+        Intent it = new Intent(this,Listviewdemo2.class);
+        startActivity(it);
+    }
 }

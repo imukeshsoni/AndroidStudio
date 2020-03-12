@@ -90,4 +90,16 @@
         android:textSize="20sp"
         android:onClick="labEval2"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Media Player"
+        android:onClick="mediaplayer"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="list view demo"
+        android:onClick="listviewdemo2"
+        />
 </LinearLayout>
